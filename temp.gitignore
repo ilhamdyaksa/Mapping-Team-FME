@@ -1,0 +1,13 @@
+# Mengabaikan folder virtual environment
+venv/
+env/
+.env
+
+# Mengabaikan cache python
+__pycache__/
+*.pyc
+
+# Mengabaikan file data (PENTING: agar raw data perusahaan tidak bocor)
+*.csv
+*.xlsx
+*.xls
